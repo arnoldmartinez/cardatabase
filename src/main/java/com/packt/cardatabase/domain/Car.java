@@ -11,12 +11,12 @@ public class Car {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    private String brannd, model, color, registerName;
+    private String brand, model, color, registerName;
     private int year, price;
 
     public Car(String brand, String model, String color, String registerName, int year, int price) {
         super();
-        this.brannd = brand;
+        this.brand = brand;
         this.model = model;
         this.color = color;
         this.registerName = registerName;
@@ -33,11 +33,11 @@ public class Car {
     }
 
     public String getBrannd() {
-        return brannd;
+        return brand;
     }
 
     public void setBrannd(String brannd) {
-        this.brannd = brannd;
+        this.brand = brannd;
     }
 
     public String getModel() {
