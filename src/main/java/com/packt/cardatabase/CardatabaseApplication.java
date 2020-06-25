@@ -33,13 +33,13 @@ public class CardatabaseApplication {
 			orepository.save(owner2);
 
 			// Add car object with link to owners and save these to db.
-			Car car = new Car("Ford", "Mustang", "Red", "ADF-1121", 2017, 59000, owner1);
+			Car car = new Car("Ford", "Mustang", "Red", "ADF-1121", 2017, 59000);
 			repository.save(car);
 
-			car = new Car("Nissan", "Leaf", "White", "SSJ-3002", 2014, 29000, owner2);
+			car = new Car("Nissan", "Leaf", "White", "SSJ-3002", 2014, 29000);
 			repository.save(car);
 
-			car = new Car("Toyota", "Prius", "Silver", "KKO-0212", 2018, 39000, owner2);
+			car = new Car("Toyota", "Prius", "Silver", "KKO-0212", 2018, 39000);
 			repository.save(car);
 		};
 	}

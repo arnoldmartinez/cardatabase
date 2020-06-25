@@ -1,6 +1,7 @@
 package com.packt.cardatabase.domain;
 
 import javax.persistence.*;
+import java.util.Set;
 
 @Entity
 public class Car {
@@ -11,11 +12,10 @@ public class Car {
     private String brand, model, color, registerName;
     private int year, price;
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "owner")
-    private Owner owner;
+    @ManyToMany(mappedBy = "cars")
+    private Set<Owner> owners;
 
-    public Car(String brand, String model, String color, String registerName, int year, int price, Owner owner) {
+    public Car(String brand, String model, String color, String registerName, int year, int price) {
         super();
         this.brand = brand;
         this.model = model;
@@ -23,7 +23,6 @@ public class Car {
         this.registerName = registerName;
         this.year = year;
         this.price = price;
-        this.owner = owner;
     }
 
     public Long getId() {
@@ -82,11 +81,11 @@ public class Car {
         this.price = price;
     }
 
-    public Owner getOwner() {
-        return owner;
+    public Set<Owner> getOwner() {
+        return owners;
     }
 
-    public void setOwner(Owner owner) {
-        this.owner = owner;
+    public void setOwner(Set<Owner> owners) {
+        this.owners = owners;
     }
 }
