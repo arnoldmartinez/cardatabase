@@ -18,6 +18,17 @@ public class Car {
     private Owner owner;
 
     public Car() { }
+
+    public Car(String brand, String model, String color, String registerName, int year, int price) {
+        super();
+        this.brand = brand;
+        this.model = model;
+        this.color = color;
+        this.registerName = registerName;
+        this.year = year;
+        this.price = price;
+    }
+
     public Car(String brand, String model, String color, String registerName, int year, int price, Owner owner) {
         super();
         this.brand = brand;
