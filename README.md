@@ -62,9 +62,3 @@ is a software development lecturer at Haaga-Helia University of Applied Sciences
 
 ## Other books by the authors
 [Hands-On Full Stack Development with Spring Boot 2.0 and React](https://www.packtpub.com/application-development/hands-full-stack-development-spring-boot-20-and-react?utm_source=github&utm_medium=repository&utm_campaign=)
-
-
-### Suggestions and Feedback
-[Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.
-
-
