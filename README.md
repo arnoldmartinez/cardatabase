@@ -58,7 +58,3 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 ## Get to Know the Author
 **Juha Hinkula**
 is a software development lecturer at Haaga-Helia University of Applied Sciences in Finland. He received an MSc degree in computer science from the University of Helsinki. He has over 15 years of industry experience in software development. Over the past few years, he has focused on modern full stack development. He is also a passionate mobile developer with Android-native technology, and nowadays also uses React Native.
-
-
-## Other books by the authors
-[Hands-On Full Stack Development with Spring Boot 2.0 and React](https://www.packtpub.com/application-development/hands-full-stack-development-spring-boot-20-and-react?utm_source=github&utm_medium=repository&utm_campaign=)
